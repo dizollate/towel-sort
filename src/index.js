@@ -2,8 +2,8 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-	if (matrix.length == 0){
-    [];
+	if (matrix === undefined){
+    return [];
     }
  	let newMassive = [];
     let len = matrix.length;
